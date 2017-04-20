@@ -9,7 +9,7 @@ public class SpinLockImprove {
     private AtomicReference<Thread> owner = new AtomicReference<>();
 
     private int count = 0;
-    
+
     public void lock(){
         Thread current = Thread.currentThread();
         if (current == owner.get()){
