@@ -1,5 +1,7 @@
 package org.dalvin.deadlock;
 
+import java.util.concurrent.locks.Lock;
+
 /**
  * Created by qiudeyang on 19/04/17.
  */
