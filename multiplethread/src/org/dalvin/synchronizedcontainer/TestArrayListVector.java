@@ -2,6 +2,7 @@ package org.dalvin.synchronizedcontainer;
 
 import java.util.ArrayList;
 import java.util.Vector;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by qiudeyang on 14/05/17.
